@@ -10,7 +10,7 @@ export default function Header() {
               <div className="header--body">
                   <img src={collage} className="collage" alt="photos" />
                   <h1>Online Experiences</h1>
-                  <h4>Join unique interactive activities led by one-of-a-kind hosts, all without leaving home.</h4>
+                  <p>Join unique interactive activities led by one-of-a-kind hosts, all without leaving home.</p>
               </div>
         </div>
     );

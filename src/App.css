@@ -1,5 +1,31 @@
 .App {
   text-align: center;
+  font-family:"Poppins", sans-serif ;
+}
+
+.collage {
+  max-width: fit-content;
+  align-self: center;
+}
+
+.header--body {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header--body > h1, .header--body > p {
+  text-align: left;
+  padding-left: 25px;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.header--body > p {
+  margin-top: 0;
+  font-weight: 300;
+  font-size: 16px;
+  width: 320px;
 }
 
 .logo {

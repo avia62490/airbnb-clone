@@ -28,18 +28,18 @@
   width: 320px;
 }
 
-.instance {
+.card {
   width: 180px;
   font-size: 12 px;
   
 }
 
-.instance--info {
+.card--info {
   display: flex;
   align-items: center;
 }
 
-.instance--star {
+.card--star {
   height: 14 px;
 }
 

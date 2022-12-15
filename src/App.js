@@ -6,7 +6,14 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <Card />
+        <Card 
+            image="KZaferes.png"
+            rating="5.0"
+            review_count={6}
+            country="USA"
+            title="Life Lessons with Katie Zaferes"
+            price={140}
+        />
     </div>
   );
 }

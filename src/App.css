@@ -28,6 +28,21 @@
   width: 320px;
 }
 
+.instance {
+  width: 180px;
+  font-size: 12 px;
+  
+}
+
+.instance--info {
+  display: flex;
+  align-items: center;
+}
+
+.instance--star {
+  height: 14 px;
+}
+
 .logo {
   height: 40px;
 }

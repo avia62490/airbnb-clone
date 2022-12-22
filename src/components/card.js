@@ -1,7 +1,8 @@
-import photo from "../images/KZaferes.png"
 import star from "../images/Star_icon.svg"
 
 export default function Card(props) {
+    const images = require.context('../../public/images', true);
+    const photo = images('./KZaferes.png');
     return (
         <div className="cards_section">
               <div className="card">

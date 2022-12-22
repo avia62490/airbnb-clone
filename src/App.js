@@ -7,6 +7,7 @@ function App() {
     const cards = data.map(item => {
         return(
             <Card 
+                key={item.id}
                 image={item.coverImg}
                 rating={item.stats.rating}
                 review_count={item.stats.reviewCount}

@@ -15,11 +15,13 @@ function App() {
                 price={item.price}
             />
         )
-    })
+    });
     return (
       <div className="App">
           <Header />
-          {cards}
+          <section className="cards_section">
+                {cards}
+          </section>
       </div>
     );
 }
